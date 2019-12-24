@@ -1,10 +1,11 @@
-.body-container{
-    margin-top: -64px;
-    height: 200vh;
+#HelloWorld{
+    height: 90vh;
 }
 .identity-container{
     margin-left:10vw;
     float: left;
+    top: 0px;
+    position: absolute;
 }
 .mesh-top{
     height: 200px;
@@ -14,7 +15,7 @@
     position: absolute;
 }
 .my-name{
-    margin-top: calc(200px - 8vh);
+    margin-top: calc(200px - 10vh);
     letter-spacing: 1px;
     display: inline-block;
     font-size: 3rem;
@@ -59,12 +60,21 @@
 }
 
 .picture-container{
-    float: right;
     width: 50vw;
     text-align: center;
     padding-top: 10vh;
+    position: absolute;
+    right: 0px;
 }
-
+.line-break-l{
+    height: 5vh;
+}
+.line-break-m{
+    height: 2.5vh;
+}
+.line-break-s{
+    height: 1vh;
+}
 .parallax-wrapper{
     position: absolute;
     top:0px;
@@ -87,3 +97,53 @@
     right: 0px;
     top: 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .body-container{
+        text-align: center;
+        margin-top: -10vh;
+    }
+    .identity-container{
+        position: relative;
+        margin:0px auto ;
+        float: none;
+        display: inline-block;
+    }
+    .picture-container{
+        float: none;
+        width: 100%;
+        padding-top: 5vh;
+        position: relative;
+    }
+    .picture-container>a>img{
+        width: 65%;
+    }
+    .mesh-top{
+        display: none;
+    }
+    .my-name{
+        font-size: 8vw;
+        margin-top: 0px;
+        letter-spacing: 0.3px;
+    }
+    .my-titles{
+        text-align: left;
+    }
+    .title-name{
+        font-size: 5.5vw;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .my-name{
+        font-size: 2.3rem;
+    }
+    .picture-container>a>img{
+        width: 35vw;
+    }
+    #HelloWorld{
+        height: 80vh;
+    }
+}
+  

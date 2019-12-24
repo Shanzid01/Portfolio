@@ -1,7 +1,10 @@
 .sidenav-trigger{
-    margin: 15px 0 0 10px;
+    margin: 20px 0 0 20px;
     display: block;
     color: grey;
+    z-index: 100;
+    position: relative;
+    width: 24px;
 }
 .sidenav .subheader{
     font-size: 0.9rem;
@@ -22,4 +25,7 @@
 }
 .nav-options>li>a:hover{
     border-bottom: 1px solid #1E88E5;
+}
+.drag-target{
+    width: 20px;
 }

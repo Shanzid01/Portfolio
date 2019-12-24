@@ -8,7 +8,7 @@ export default class NavBar extends React.Component{
     }
     render(){return(
         <div>
-            <a href="#!" data-target="mobile-demo" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
+            <a href="#!" data-target="sidenav" className="sidenav-trigger hide-on-med-and-up"><i className="material-icons">menu</i></a>
              <nav className="transparent z-depth-0 container">
                 <div className="nav-wrapper">
                     <ul className="right nav-options hide-on-med-and-down">
@@ -21,13 +21,13 @@ export default class NavBar extends React.Component{
                 </div>
             </nav>
 
-            <ul className="sidenav container" id="mobile-demo">
-                <li><a className="subheader">NAVIGATION</a></li>
+            <ul className="sidenav container" id="sidenav">
+                <li><a className="subheader" href="#!">NAVIGATION</a></li>
                 <li><a className="waves-effect sidenav-close" href="#HelloWorld"><i className="material-icons">face</i>Hello World</a></li>
-                <li><a className="waves-effect sidenav-close"href="#Projects"><i className="material-icons">toys</i>Projects</a></li>
-                <li><a className="waves-effect sidenav-close"href="#Contact"><i className="material-icons">alternate_email</i>Contact</a></li>
-                <li><a className="waves-effect sidenav-close"href="./Shanzid_Shaiham-resume.pdf"><i className="material-icons">list_alt</i>Resume</a></li>
-                <li><a className="waves-effect sidenav-close"href="https://pay.shanzid.com"><i className="material-icons">loyalty</i>Donate</a></li>
+                <li><a className="waves-effect sidenav-close" href="#Projects"><i className="material-icons">toys</i>Projects</a></li>
+                <li><a className="waves-effect sidenav-close" href="#Contact"><i className="material-icons">alternate_email</i>Contact</a></li>
+                <li><a className="waves-effect sidenav-close" href="./Shanzid_Shaiham-resume.pdf"><i className="material-icons">list_alt</i>Resume</a></li>
+                <li><a className="waves-effect sidenav-close" href="https://pay.shanzid.com"><i className="material-icons">loyalty</i>Donate</a></li>
             </ul>
         </div>
     )}

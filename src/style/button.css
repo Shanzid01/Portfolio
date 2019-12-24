@@ -3,7 +3,7 @@
     height: 40px;
     display: inline-block;
     padding: 5px 25px;
-    line-height: 30px;
+    line-height: 27px;
     cursor: pointer;
     color: white;
     transition: all 0.2s ease;
@@ -13,11 +13,11 @@
 }
 .button-title{
     font-weight: bold;
-    letter-spacing: 0.5px;
-    font-size: 0.9rem;
+    letter-spacing: 0.7px;
+    font-size: 13px;
 }
 .button-icon{
-    vertical-align: text-top;
+    vertical-align: middle;
     font-size: 1.4rem;
 }
 .blue{
