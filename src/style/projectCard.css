@@ -19,13 +19,14 @@
     position: absolute;
     width: 100%;
     border-radius: 10px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 0px;;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     overflow: hidden;
     z-index: 10;
 }
 .proj-img-container>img{
     width: 100%;
+    border-bottom-left-radius: 40px;
 }
 .proj-name{
     position: absolute;
@@ -48,7 +49,8 @@
 .proj-type>i{
     vertical-align: middle;
     font-size: 1.4rem;
-    opacity: 0.6;
+    position: relative;
+    z-index: 100;
 }
 .waves-overlay{
     position: absolute;

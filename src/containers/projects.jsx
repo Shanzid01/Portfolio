@@ -2,9 +2,14 @@ import React from 'react';
 import TitleCard from '../components/titleCard';
 import ProjectCard from '../components/projectCard';
 import Button from '../components/button';
+import projectData from '../projects.json';
 import '../style/projects.css';
 
 export default class Projects extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={projectData};
+    }
     componentDidMount(){
         window.addEventListener('scroll', (e)=>{
             let scrolled=window.pageYOffset;
@@ -24,12 +29,9 @@ export default class Projects extends React.Component{
             <div className="line-break-l"/>
             <div className="container proj-container">
                 <TitleCard img="./images/titleDoodle_projects.svg" text="PROJECTS"/>
-                <ProjectCard img="./images/moneymanager.jpg" name="MoneyManager" type="public" />
-                <ProjectCard img="./images/moneymanager.jpg" name="MoneyManager" type="public" />
-                <ProjectCard img="./images/moneymanager.jpg" name="MoneyManager" type="public" />
-                <ProjectCard img="./images/moneymanager.jpg" name="MoneyManager" type="public" />
-                <ProjectCard img="./images/moneymanager.jpg" name="MoneyManager" type="public" />
-                <ProjectCard img="./images/moneymanager.jpg" name="MoneyManager" type="public" />
+                {this.state.projectData.map((project)=>{
+                    return <ProjectCard key={project.id} img={project.thumb} name={project.name} type={project.type} />
+                })}
             </div>
             <div className="show-more">
                 <div onClick={()=>this.showMoreProjects()} ><Button color="blue" value="See more" icon="arrow_drop_down" /></div>
