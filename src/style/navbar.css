@@ -1,0 +1,25 @@
+.sidenav-trigger{
+    margin: 15px 0 0 10px;
+    display: block;
+    color: grey;
+}
+.sidenav .subheader{
+    font-size: 0.9rem;
+    font-weight:bold;
+    margin-top: 10px;
+}
+.nav-options>li{
+    margin: 10px;
+    height: 65px;
+}
+.nav-options>li>a{
+    color: #546E7A;
+    background-color: transparent !important;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    transition: all 0.1s ease-in;
+}
+.nav-options>li>a:hover{
+    border-bottom: 1px solid #1E88E5;
+}
