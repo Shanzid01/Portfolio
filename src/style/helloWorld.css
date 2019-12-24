@@ -1,5 +1,5 @@
 #HelloWorld{
-    height: 90vh;
+    height: 85vh;
 }
 .identity-container{
     margin-left:10vw;
@@ -66,15 +66,6 @@
     position: absolute;
     right: 0px;
 }
-.line-break-l{
-    height: 5vh;
-}
-.line-break-m{
-    height: 2.5vh;
-}
-.line-break-s{
-    height: 1vh;
-}
 .parallax-wrapper{
     position: absolute;
     top:0px;
@@ -118,6 +109,7 @@
     }
     .picture-container>a>img{
         width: 65%;
+        margin-left: 15px;
     }
     .mesh-top{
         display: none;

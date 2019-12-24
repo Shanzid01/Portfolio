@@ -1,4 +1,62 @@
 #Projects{
     height: 90vh;
     text-align: center;
+    position: relative;
+}
+.doodle_projects{
+    height: 100%;
+    text-align: left;
+    position: absolute;
+    right:0px;
+    left:0px;
+}
+.doodle_projects>img{
+    height: 100%;
+}
+.doodle_circle1{
+    height: 100px;
+    width: 50px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    opacity: 0.6;
+    background-color: #1E88E5;
+    margin-bottom: -150px;
+}
+.doodle_circle2{
+    opacity: 0.6;
+    background-color: #FF9100;
+    margin-top: -150px;
+    float: right;
+    position: absolute;
+    width: 75px;
+    height: 150px;
+    border-bottom-left-radius: 120px;
+    border-top-left-radius: 120px;
+    right: 0px;
+}
+.container{
+    width: 90%;;
+}
+.proj-container{
+    overflow: hidden;
+    max-height: calc(100% - 5vh);
+    transition: all 1s ease;
+}
+.show-more{
+    position: absolute;
+    bottom: 0px;
+    left:5vw;
+    right: 5vw;
+    height: 50px;
+    text-align: center;
+    background-image: linear-gradient(transparent, white);
+    z-index: 100;
+}
+.show-more>div{
+    display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100vw;
+    }
 }
