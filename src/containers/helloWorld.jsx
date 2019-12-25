@@ -3,6 +3,7 @@ import NavBar from '../components/navbar';
 import Socials from '../components/socials';
 import Button from '../components/button';
 import TextTransition, { presets } from "react-text-transition";
+import {doParallax} from '../components/common.js';
 import '../style/helloWorld.css';
 
 export default class HelloWorld extends React.Component{
@@ -14,12 +15,9 @@ export default class HelloWorld extends React.Component{
         }
     }
     componentDidMount(){
-        window.addEventListener('scroll', (e)=>{
-            let scrolled=window.pageYOffset;
-            document.getElementsByClassName("mesh-top")[0].style.top=-(scrolled*-0.2)+"px";
-            document.getElementsByClassName("doodle-home")[0].style.top=-(scrolled*0.1)+"px";
-            document.getElementsByClassName("doodle2-home")[0].style.top=-(scrolled*-0.1)+"px";
-        });
+        doParallax("mesh-top", -0.2);
+        doParallax("doodle-home", -0.07);
+        doParallax("doodle2-home", -0.02);
         setInterval(()=>{
             let newIndex=this.state.currentTitleIndex+1;
             this.setState({currentTitleIndex:newIndex%3});

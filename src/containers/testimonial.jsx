@@ -1,11 +1,15 @@
 import React from 'react';
+import {doParallax} from '../components/common.js';
 import '../style/testimonial.css';
 
 export default class Testimonial extends React.Component{
+    componentDidMount(){
+        doParallax("doodle-parallax-testimonial", -0.02, "marginTop");
+    }
     render(){return(
         <div id="Testimonial">
             <div className="doodle-testimonial">
-                <img src="./images/doodle_testimonial.svg" alt="" />
+                <img src="./images/doodle_testimonial.svg" className="doodle-parallax-testimonial" alt="" />
                 <div className="doodle-testimonial-background" />
             </div>
             <div className="testimonial-container">

@@ -4,6 +4,7 @@ import ProjectCard from '../components/projectCard';
 import Button from '../components/button';
 import ProjectDetail from '../components/projectDetail';
 import projectData from '../projects.json';
+import {doParallax} from '../components/common.js';
 import '../style/projects.css';
 
 export default class Projects extends React.Component{
@@ -28,10 +29,7 @@ export default class Projects extends React.Component{
         };
     }
     componentDidMount(){
-        window.addEventListener('scroll', (e)=>{
-            let scrolled=window.pageYOffset;
-            document.getElementsByClassName("doodle_projects")[0].style.top=-(scrolled*-0.2)+"px";
-        });
+        doParallax("doodle_projects", -0.05);
     }
     showMoreProjects(){
         document.getElementsByClassName("show-more")[0].style.display="none";
