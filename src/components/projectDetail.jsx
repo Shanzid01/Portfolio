@@ -11,7 +11,6 @@ export default class ProjectDetail extends React.Component{
             instance.close();
             this.props.closeModal();
         }
-        console.log(this.props.projectData);
     }
     componentDidUpdate(){
         if(this.props.isOpen){
@@ -44,14 +43,14 @@ export default class ProjectDetail extends React.Component{
                 <div className="modal-footer">
                     <div className="container">
                     <div className="proj-links">
-                            <div className={"proj-github waves-effect waves-light "+(this.props.projectData.github!==""? "": "proj-hide")}>
-                                <a href={this.props.projectData.github} className="tooltipped" data-position="top" data-tooltip="Github"><img src="./images/github.svg" alt="" /></a>
+                            <div className={"proj-github waves-effect waves-light tooltipped "+(this.props.projectData.github!==""? "": "proj-hide")} data-position="top" data-tooltip="Github">
+                                <a href={this.props.projectData.github}><img src="./images/github.svg" alt="" /></a>
                             </div>
-                            <div className={"proj-live waves-effect waves-light "+(this.props.projectData.live!==""? "": "proj-hide")}>
-                                <a href={this.props.projectData.live} className="tooltipped" data-position="top" data-tooltip="Live website"><i className="material-icons">public</i></a>
+                            <div className={"proj-live waves-effect waves-light tooltipped "+(this.props.projectData.live!==""? "": "proj-hide")} data-position="top" data-tooltip="Live website">
+                                <a href={this.props.projectData.live}><i className="material-icons">public</i></a>
                             </div>
-                            <div className={"proj-android waves-effect waves-light "+(this.props.projectData.android!==""? "": "proj-hide")}>
-                                <a href={this.props.projectData.android} className="tooltipped" data-position="top" data-tooltip="Android app"><i className="material-icons">android</i></a>
+                            <div className={"proj-android waves-effect waves-light tooltipped "+(this.props.projectData.android!==""? "": "proj-hide")} data-position="top" data-tooltip="Android app">
+                                <a href={this.props.projectData.android}><i className="material-icons">android</i></a>
                             </div>
                     </div>
                     <span className="proj-date"><i>{this.props.projectData.date}</i></span>

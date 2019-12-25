@@ -1,14 +1,21 @@
+.proj-all-container{
+    position: relative;
+}
 #Projects{
-    height: 90vh;
+    max-height: 90vh;
     text-align: center;
     position: relative;
+    overflow: hidden;
+    transition: all 1s ease;
 }
 .doodle_projects{
     height: 100%;
+    max-height: 90vh;
     text-align: left;
     position: absolute;
     right:0px;
     left:0px;
+    top:0px;
 }
 .doodle_projects>img{
     height: 100%;
@@ -38,9 +45,7 @@
     width: 90%;;
 }
 .proj-container{
-    overflow: hidden;
-    max-height: calc(100% - 5vh);
-    transition: all 1s ease;
+    max-height: 100%;
 }
 .show-more{
     position: absolute;
