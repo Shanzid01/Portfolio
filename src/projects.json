@@ -7,7 +7,7 @@
         "thumb":"./images/projects/moneymanager.jpg",
         "stacks":["NodeJS", "ReactJS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX"],
         "date":"June 2019",
-        "previews":[],
+        "previews":["./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg"],
         "live":"https://moneymanager-664f7.firebaseapp.com/",
         "github":"https://github.com/Shanzid01/MoneyManager",
         "android":"https://play.google.com/store/apps/details?id=com.shanzid.moneymanager"
@@ -20,7 +20,7 @@
         "thumb":"./images/projects/creditsolution.png",
         "stacks":["Asp.net C#", "SQL Server", "HTML", "CSS", "Javascript", "UI/UX"],
         "date":"July 2015",
-        "previews":[],
+        "previews":["./images/projects/creditsolution.png"],
         "live":"",
         "github":"",
         "android":""
@@ -33,7 +33,7 @@
         "thumb":"./images/projects/rsq.webp",
         "stacks":["NodeJS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX", "MongoDB"],
         "date":"July 1, 2018 - March 1, 2019",
-        "previews":[],
+        "previews":["./images/projects/rsq.webp"],
         "live":"https://landingpage-a96fd.firebaseapp.com/",
         "github":"https://github.com/TheRSquaredProject",
         "android":""
@@ -46,7 +46,7 @@
         "thumb":"./images/projects/yolo.png",
         "stacks":["TensorflowJS", "Ml5.JS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX"],
         "date":"March 23, 2019",
-        "previews":[],
+        "previews":[""],
         "live":"https://shanzid.com/proj/YOLO/yolo.html",
         "github":"https://github.com/Shanzid01/YOLO-demo",
         "android":""
@@ -59,7 +59,7 @@
         "thumb":"./images/projects/timbletask.jpg",
         "stacks":["NodeJS", "ReactJS", "HTML", "CSS", "Javascript", "Heroku", "MongoDB", "UI/UX"],
         "date":"June 2, 2019",
-        "previews":[],
+        "previews":[""],
         "live":"https://timble-task.herokuapp.com/",
         "github":"https://github.com/Shanzid01/TimbleTask",
         "android":""
@@ -72,7 +72,7 @@
         "thumb":"./images/projects/bittalk.webp",
         "stacks":["WebRTC", "STUN/TURN", "HTML", "CSS", "Javascript", "UI/UX"],
         "date":"July 22, 2016",
-        "previews":[],
+        "previews":[""],
         "live":"https://shanzid.com/proj/BitTalk/index.html",
         "github":"https://github.com/Shanzid01/BitTalk",
         "android":""
@@ -85,7 +85,7 @@
         "thumb":"./images/projects/finance.png",
         "stacks":["Asp.net C#", "SQL Server", "HTML", "CSS", "Javascript", "UI/UX"],
         "date":"December 2015",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -98,7 +98,7 @@
         "thumb":"./images/projects/webplay.png",
         "stacks":["HTML", "CSS", "Javascript", "UI/UX"],
         "date":"Feb 11, 2019",
-        "previews":[],
+        "previews":[""],
         "live":"https://shanzid.com/proj/WebPlay/index.html",
         "github":"https://github.com/Shanzid01/WebPlay",
         "android":""
@@ -111,7 +111,7 @@
         "thumb":"./images/projects/wordplay.png",
         "stacks":["Android", "My SQL", "Java", "UI/UX"],
         "date":"August 22, 2014",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"https://github.com/Shanzid01/WordPlay",
         "android":"http://slideme.org/application/word-play"
@@ -124,7 +124,7 @@
         "thumb":"./images/projects/nanotouch.png",
         "stacks":["Android", "My SQL", "Java", "UI/UX"],
         "date":"July 14, 2014",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"https://github.com/Shanzid01/NanoTouch",
         "android":"http://slideme.org/application/nanotouch"
@@ -137,7 +137,7 @@
         "thumb":"./images/projects/quikapps.png",
         "stacks":["Android", "My SQL", "Java", "UI/UX"],
         "date":"January 30, 2014",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"https://github.com/Shanzid01/QuikApps",
         "android":""
@@ -150,7 +150,7 @@
         "thumb":"./images/projects/glucause.webp",
         "stacks":["Community"],
         "date":"February 2018",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -163,7 +163,7 @@
         "thumb":"./images/projects/ttt.webp",
         "stacks":["Community"],
         "date":"January 2018",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -176,7 +176,7 @@
         "thumb":"./images/projects/pathfinder.png",
         "stacks":["Genetic algorithm", "HTML", "CSS", "Javascript"],
         "date":"July 19,2017",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -189,7 +189,7 @@
         "thumb":"./images/projects/classification.png",
         "stacks":["Neural network", "Java"],
         "date":"March 28, 2015",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -202,7 +202,7 @@
         "thumb":"./images/projects/quad.png",
         "stacks":["Hardware"],
         "date":"January 2019",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -215,7 +215,7 @@
         "thumb":"./images/projects/mocap.png",
         "stacks":["Posenet", "TensorflowJS", "HTML", "CSS", "Javascript"],
         "date":"July 5, 2018",
-        "previews":[],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""

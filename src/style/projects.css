@@ -56,7 +56,7 @@
     display: inline-block;
 }
 @media only screen and (max-width: 600px) {
-    .container{
+    .proj-container{
         width: 100vw;
     }
 }

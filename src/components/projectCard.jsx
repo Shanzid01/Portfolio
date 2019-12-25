@@ -15,7 +15,8 @@ export default class ProjectCard extends React.Component{
             case 'android': color='green'; title='Android app'; break;
             case 'memory': color='red'; title='Machine learning'; break;
             case 'people': color='orange'; title='Community work'; break;
-            case 'videogame_asset': color='purple'; title='Hobby'; break;            
+            case 'videogame_asset': color='purple'; title='Hobby'; break;  
+            default: color='grey'; title=''; break;          
         }
         this.setState({color, title});   
     }

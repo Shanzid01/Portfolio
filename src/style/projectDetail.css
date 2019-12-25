@@ -1,0 +1,43 @@
+.modal.bottom-sheet {
+    min-height: 80vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.modal{
+    background-color: #fff;
+    overflow: hidden;
+}
+.modal-content{
+    text-align: left;
+}
+.preview-container{
+    width: 110vw;
+    margin-left: calc(-5vw - 24px);
+    max-height: 30vh;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.preview-container::-webkit-scrollbar {
+    display: none;
+}
+.preview-container>img{
+    display: inline-block;
+    margin: 0px 5px;
+    max-height: 25vh;
+}
+.project-text{
+    margin-top: 20px;
+}
+.project-name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal.bottom-sheet {
+        min-height: 95vh;
+    }
+    .project-name{
+        font-size: 1.8rem;
+    }
+}

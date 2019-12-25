@@ -1,5 +1,5 @@
 .project-card{
-    height: 290px;
+    height: 285px;
     width: 350px;
     border-radius: 10px;
     transition: all 0.2s ease;
@@ -38,7 +38,7 @@
     letter-spacing: 0.4px;
     text-align: left;
     padding: 0px 20px;
-    line-height: 56px;
+    line-height: 60px;
 }
 .proj-title{
     color:#37474F;
@@ -47,7 +47,7 @@
     float: right;
 }
 .proj-type>i{
-    vertical-align: middle;
+    vertical-align: text-bottom;
     font-size: 1.4rem;
     position: relative;
     z-index: 100;
@@ -63,12 +63,12 @@
 @media only screen and (max-width: 600px) {
     .project-card{
         width: 90vw;
-        height: calc(90vw * 0.85);
+        height: calc(90vw * 0.80);
         margin:5px;
     }
     .proj-name{
-        height: calc((90vw * 0.85) - (90vw * 0.85 * 0.79));
-        line-height: calc((90vw * 0.85) - (90vw * 0.85 * 0.79));
+        height: calc((90vw * 0.80) - (90vw * 0.80 * 0.79));
+        line-height: calc((90vw * 0.80) - (90vw * 0.80 * 0.74));
         font-size: 3.7vw;
     }
 }
