@@ -1,5 +1,5 @@
 .modal.bottom-sheet {
-    min-height: 80vh;
+    min-height: 70vh;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -16,6 +16,8 @@
     max-height: 30vh;
     white-space: nowrap;
     overflow-x: scroll;
+    padding:0px 20px;
+    text-align: center;
 }
 .preview-container::-webkit-scrollbar {
     display: none;
@@ -32,10 +34,60 @@
     font-size: 2rem;
     font-weight: bold;
 }
+.modal-footer{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    line-height: 54px;
+    height: 65px !important;
+    padding: 4px 24px 20px 24px !important;
+    text-align: left !important;
+}
+.proj-links{
+    display: inline-block;
+    position: relative;
+}
+.proj-links>div{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align:center;
 
+}
+.proj-links>div>a>i{
+    color:white;
+    line-height: 40px;
+    vertical-align: super;
+}
+.proj-github{
+    background-color: #263238;
+}
+.proj-github>a>img{
+    height: 24px;
+    width: 24px;
+    line-height: 0px;
+}
+.proj-live{
+    background-color: #1565C0;
+}
+.proj-android{
+    background-color: #a4c639;
+}
+.proj-date{
+    font-size: 0.8rem;
+    float: right;
+    color:#37474F;
+}
+.proj-hide{
+    display: none !important;
+}
 @media only screen and (max-width: 600px) {
     .modal.bottom-sheet {
-        min-height: 95vh;
+        min-height: 75vh;
     }
     .project-name{
         font-size: 1.8rem;

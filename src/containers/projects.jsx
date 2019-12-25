@@ -12,7 +12,19 @@ export default class Projects extends React.Component{
         this.state={
             projectData,
             isDetailOpen:false,
-            detailData:''
+            detailData:{
+                "id":-1,
+                "name":"",
+                "description":"",
+                "type":"",
+                "thumb":"",
+                "stacks":[""],
+                "date":"",
+                "previews":[""],
+                "live":"",
+                "github":"",
+                "android":""
+            }
         };
     }
     componentDidMount(){
@@ -29,6 +41,9 @@ export default class Projects extends React.Component{
         let detailData=this.state.projectData.find(proj=> proj.id===proj_id);
         this.setState({isDetailOpen:true, detailData});
     }
+    closeModal(){
+        this.setState({isDetailOpen:false});
+    }
     render(){return(
         <div id="Projects">
             <div className="doodle_projects">
@@ -43,7 +58,7 @@ export default class Projects extends React.Component{
                                 <ProjectCard key={project.id} img={project.thumb} name={project.name} type={project.type} />
                             </span>)
                 })}
-                <ProjectDetail isOpen={this.state.isDetailOpen} projectData={this.state.detailData} />
+                <ProjectDetail isOpen={this.state.isDetailOpen} closeModal={()=>this.closeModal()} projectData={this.state.detailData} />
             </div>
             <div className="show-more">
                 <div onClick={()=>this.showMoreProjects()} ><Button color="blue" value="See more" icon="arrow_drop_down" /></div>

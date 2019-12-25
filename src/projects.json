@@ -7,7 +7,7 @@
         "thumb":"./images/projects/moneymanager.jpg",
         "stacks":["NodeJS", "ReactJS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX"],
         "date":"June 2019",
-        "previews":["./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg", "./images/projects/moneymanager.jpg"],
+        "previews":[""],
         "live":"https://moneymanager-664f7.firebaseapp.com/",
         "github":"https://github.com/Shanzid01/MoneyManager",
         "android":"https://play.google.com/store/apps/details?id=com.shanzid.moneymanager"
@@ -20,7 +20,7 @@
         "thumb":"./images/projects/creditsolution.png",
         "stacks":["Asp.net C#", "SQL Server", "HTML", "CSS", "Javascript", "UI/UX"],
         "date":"July 2015",
-        "previews":["./images/projects/creditsolution.png"],
+        "previews":[""],
         "live":"",
         "github":"",
         "android":""
@@ -33,7 +33,7 @@
         "thumb":"./images/projects/rsq.webp",
         "stacks":["NodeJS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX", "MongoDB"],
         "date":"July 1, 2018 - March 1, 2019",
-        "previews":["./images/projects/rsq.webp"],
+        "previews":[""],
         "live":"https://landingpage-a96fd.firebaseapp.com/",
         "github":"https://github.com/TheRSquaredProject",
         "android":""
