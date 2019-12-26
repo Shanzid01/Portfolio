@@ -22,6 +22,7 @@
     top:0px;
     left:0px;
     z-index: -1;
+    border-radius: 15px;
 }
 .contact-card-doodle>.one{
     border-radius: 100%;
@@ -120,6 +121,9 @@
         height: 100%;
         padding: 30px;
         background-color: transparent;
+    }
+    .contact-card-doodle{
+        border-radius: 0px;
     }
     .contact-card-doodle>.one{
         width: 250px;
