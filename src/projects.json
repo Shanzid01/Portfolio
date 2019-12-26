@@ -2,7 +2,7 @@
     {
         "id":17,
         "name":"MoneyManager",
-        "description":"Full-stack web application for recording and monitoring daily finances.",
+        "description":"Built a full-stack web application for recording and monitoring personal daily finances.<br/> Primary technologies used:<br/> • Node.js with Firebase Cloud functions for the back-end<br/> • Cloud Firestore for database<br/> • ReactJS for front-end interface<br/> (FERN stack : Google Firebase, express, react and node.js)",
         "type":"public",
         "thumb":"./images/projects/moneymanager.jpg",
         "stacks":["NodeJS", "ReactJS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX"],
@@ -15,7 +15,7 @@
     {
         "id":11,
         "name":"CreditSolution",
-        "description":"A web-based custom accounting software for Credit Unions.",
+        "description":"Built a custom web-based accounting software for Credit Unions.<br/> Operational since 2015, currently trusted by 7 institutions, handling over 1k daily requests.<br/> Used for recording daily cash collections, cash payments, creating/editing new accounts, generating transaction reports, etc.<br/> Built primarily with:<ul> <li><b>Asp.net C#</b> in back end</li> <li><b>SQL Server 2015</b> for database management</li> <li><b>HTML, CSS, JS, jQuery</b> for front-end</li> <li><b>SAP Crystal Reports</b> for generating custom reports</li> </ul>",
         "type":"public",
         "thumb":"./images/projects/creditsolution.png",
         "stacks":["Asp.net C#", "SQL Server", "HTML", "CSS", "Javascript", "UI/UX"],
@@ -28,7 +28,7 @@
     {
         "id":16,
         "name":"The R-Squared Project",
-        "description":"Former full stack web developer at <a href='https://fb.com/dhakastats/'>The R-Squared Project</a>",
+        "description":"Worked with a team to develop website's front and back-end architecture at <a href='https://fb.com/dhakastats/'>The R-Squared Project</a><br/> Responsible for:<br/> • designing UI/UX layouts, building the web pages with the team, and reviewing code<br/> • finding the most cost-effective cloud services (Google Firebase)<br/> • deploying project through Content Delivery Networks (CloudFlare)<br/> • cleaning and formatting raw data into JSON format for use in REST API with MongoDB database and NodeJS server<br/>",
         "type":"work",
         "thumb":"./images/projects/rsq.webp",
         "stacks":["NodeJS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX", "MongoDB"],
@@ -41,7 +41,7 @@
     {
         "id":15,
         "name":"Real-time object detection",
-        "description":"Real-time Object detection with YOLO algorithm.",
+        "description":"Uses Tensorflow.js and <a href='https://ml5js.org/'>ml5js</a><br/> Proof of concept. All processing occurs locally inside browser on Javascript.<br/> • Can detect objects in real-time with webcam with ~20fps on average desktops.<br/> • Can detect objects in frames extracted from a selected video file.<br/> Have paired it with video feed from a drone for potential autonomous control.",
         "type":"memory",
         "thumb":"./images/projects/yolo.png",
         "stacks":["TensorflowJS", "Ml5.JS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX"],
@@ -54,7 +54,7 @@
     {
         "id":14,
         "name":"Timbletask",
-        "description":"A fully responsive Web Application for creating and sharing tasks.",
+        "description":"A fully responsive Web Application for creating and sharing tasks online.<br/> The program is built on <b>ReactJS</b>, uses <b>Google Firebase</b> for authentication and storing data, and is deployed on <b>Heroku</b>.<br/>",
         "type":"public",
         "thumb":"./images/projects/timbletask.jpg",
         "stacks":["NodeJS", "ReactJS", "HTML", "CSS", "Javascript", "Heroku", "MongoDB", "UI/UX"],
@@ -67,7 +67,7 @@
     {
         "id":13,
         "name":"BitTalk",
-        "description":"A Peer-to-Peer WebRTC based video chat website.",
+        "description":"A lightweight web-based WebRTC video chat application built with <b>PubNub</b>. Uses <b>Xirsys</b> for STUN/TURN servers.<br/>Peer-to-peer (P2P) communication, so no servers are required for the video calls.<br/> To use the app, choose a unique username and Sign in. No new accounts/sign up processes are required. Clicking on an item from the list of online users initiates a video calling session with the user.",
         "type":"public",
         "thumb":"./images/projects/bittalk.webp",
         "stacks":["WebRTC", "STUN/TURN", "HTML", "CSS", "Javascript", "UI/UX"],
@@ -80,7 +80,7 @@
     {
         "id":12,
         "name":"Finance Automation",
-        "description":"Finance automation system for United Commercial Bank Ltd.",
+        "description":"Finance automation system for United Commercial Bank Ltd.<br/> Used internally for email processing, automatic responses, handling tickets, report viewing.",
         "type":"public",
         "thumb":"./images/projects/finance.png",
         "stacks":["Asp.net C#", "SQL Server", "HTML", "CSS", "Javascript", "UI/UX"],
@@ -93,7 +93,7 @@
     {
         "id":10,
         "name":"WebPlay",
-        "description":"Website version of WordPlay.",
+        "description":"(Website version of WordPlay)<br/>One-page online application for finding words from given set of characters.<br/> '<i>Letters</i>' denotes the characters provided.<br/> '<i>Spaces</i>' denotes the size of the word (ie. the number of characters the word should take)<br/> Uses brute force dictionary search to compare characters and find results.",
         "type":"public",
         "thumb":"./images/projects/webplay.png",
         "stacks":["HTML", "CSS", "Javascript", "UI/UX"],
@@ -106,7 +106,7 @@
     {
         "id":9,
         "name":"WordPlay",
-        "description":"Android app to unscramble jumbled words.",
+        "description":"WordPlay is a fun & interesting app made for all the spelling enthusiasts out there.<br/> With WordPlay you can:<br/> • Unscramble a scrambled word within seconds.<br/> • Scramble a perfectly good word into random combinations.<br/> • Test your spelling abilities with a Spelling game.<br/> • Test your mind's word unscrambling capabilities with an Unscramble game.<br/> <b>Note: The source code in the GitHub repo has been extracted from the apk (JADX decompiler). This is a very old project and I have since lost the original code.</b>",
         "type":"android",
         "thumb":"./images/projects/wordplay.png",
         "stacks":["Android", "My SQL", "Java", "UI/UX"],
@@ -119,7 +119,7 @@
     {
         "id":8,
         "name":"Nanotouch",
-        "description":"Android app for quick access to system toggles.",
+        "description":"NanoTouch is an app which will help you use all the toggles you need in no time. It has been primarily based on Assistive Touch on Apple devices. Once you press the 'Activate' option it launches a panel from which you can access all the toggles.<br/> With NanoTouch you can:<br/> • Easily switch on/off Wifi, Bluetooth, Mobile Data, Auto-Sync.<br/> • Adjust screen brightness and set sound volumes.<br/> • Add apps to Favorites to have access to them anytime without having to open the App Drawer.<br/> • Set Change Persistence(from 'Settings') to the specific toggles to make sure that other apps cannot change the toggle state once you have changed it.<br/> Adjust the look of the panel to your own preferences from the 'Settings' option.<br/><br/> <b> Note: The source code has been extracted from the apk (JADX decompiler). This is a very old project and I have since lost the original code. </b>",
         "type":"android",
         "thumb":"./images/projects/nanotouch.png",
         "stacks":["Android", "My SQL", "Java", "UI/UX"],
@@ -145,7 +145,7 @@
     {
         "id":6,
         "name":"Project Glucause",
-        "description":"Worked as Operative Director. Initiative to raise funds for the welfare of underprivileged women and children in Bangladesh.<br/><br/> <a href='https://www.facebook.com/la.sadaf/posts/1625097407618020'>Read more</a>",
+        "description":"Worked with a team of over 15 to organise and lead a campaign for raising funds for the welfare of marginalized women and children in Bangladesh.<br/> Raised 50,000 BDT through arranging a food sale on school campus over the span of a week.<br/> All proceeds were donated to Utsho Bangladesh<br/> <a href='https://www.facebook.com/la.sadaf/posts/1625097407618020'>Read more</a>",
         "type":"people",
         "thumb":"./images/projects/glucause.webp",
         "stacks":["Community"],
@@ -158,7 +158,7 @@
     {
         "id":5,
         "name":"Teach Through Tech",
-        "description":"Worked as a volunteer. Initiative by YES Alumni Bangladesh to teach underprivileged children the basics of computer use.<br/><br/> <a href='https://www.thedailystar.net/shout/education/teaching-through-tech-1449574'>Read more</a>",
+        "description":"Led a group of 6 volunteers to teach computing fundamentals to 23 underprivileged children in Bangladesh.<br/>Initiative by YES Alumni Bangladesh to teach underprivileged children the basics of computer use.<br/><br/> <a href='https://www.thedailystar.net/shout/education/teaching-through-tech-1449574'>Read more</a>",
         "type":"people",
         "thumb":"./images/projects/ttt.webp",
         "stacks":["Community"],
@@ -171,7 +171,7 @@
     {
         "id":4,
         "name":"Pathfinders",
-        "description":"Pathfinding agents with genetic algorithm.",
+        "description":"Built a program which utilizes genetic algorithms for path-finding agents.",
         "type":"memory",
         "thumb":"./images/projects/pathfinder.png",
         "stacks":["Genetic algorithm", "HTML", "CSS", "Javascript"],
@@ -197,7 +197,7 @@
     {
         "id":2,
         "name":"Racing drone",
-        "description":"Her name's Apollo. 2300kv EMAX red-bottom motors on a 250mm carbon fiber frame. Capable of hitting 65mph.",
+        "description":"Built a racing drone. 2300kv EMAX red-bottom motors on a 250mm carbon fiber frame. Capable of hitting 40mph.",
         "type":"videogame_asset",
         "thumb":"./images/projects/quad.png",
         "stacks":["Hardware"],
