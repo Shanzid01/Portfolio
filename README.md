@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## <a href="https://shanzid.com">See live</a><br/>
+# Shanzid Shaiham - portfolio
+Single-page web application to showcase my projects and achievements.<br/>
+Built with ReactJS, and deployed on Google Firebase cloud hosting.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## External resources
+• <a href="https://materializecss.com/">MaterializeCSS</a> for some of the material design components.<br/>
+• <a href="https://www.npmjs.com/package/react-text-transition">React-text-transition</a><br/>
+• <a href="https://thenounproject.com/">The Noun Project</a> for background images.<br/>
+&nbsp;&nbsp;&nbsp;Artist credits from TheNounProject:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Landan Lloyd<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Flatart<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Arthur Shlain<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Andrejs Kirma<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Atif Arshad<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Renuka S Kulkarni<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Sérgio Filipe Cardoso Pires<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Vectorstall<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- mikicon<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Srinivas Agra<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Vectors Market<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- lastspark<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Angela<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Rudez Studio<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Jack Made<br/>
