@@ -47,7 +47,7 @@
         "stacks":["TensorflowJS", "Ml5.JS", "HTML", "CSS", "Javascript", "Google Firebase", "UI/UX"],
         "date":"March 23, 2019",
         "previews":[""],
-        "live":"https://shanzid.com/proj/YOLO/yolo.html",
+        "live":"https://yolo.shanzid.com/",
         "github":"https://github.com/Shanzid01/YOLO-demo",
         "android":""
     },
@@ -73,7 +73,7 @@
         "stacks":["WebRTC", "STUN/TURN", "HTML", "CSS", "Javascript", "UI/UX"],
         "date":"July 22, 2016",
         "previews":[""],
-        "live":"https://shanzid.com/proj/BitTalk/index.html",
+        "live":"https://bittalk.shanzid.com/",
         "github":"https://github.com/Shanzid01/BitTalk",
         "android":""
     },
@@ -99,7 +99,7 @@
         "stacks":["HTML", "CSS", "Javascript", "UI/UX"],
         "date":"Feb 11, 2019",
         "previews":[""],
-        "live":"https://shanzid.com/proj/WebPlay/index.html",
+        "live":"https://webplay.shanzid.com/",
         "github":"https://github.com/Shanzid01/WebPlay",
         "android":""
     },
