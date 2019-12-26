@@ -6,6 +6,9 @@ Built with ReactJS, and deployed on Google Firebase cloud hosting.
 ## External resources
 • <a href="https://materializecss.com/">MaterializeCSS</a> for some of the material design components.<br/>
 • <a href="https://www.npmjs.com/package/react-text-transition">React-text-transition</a><br/>
+• <a href="https://material.io/design/color/the-color-system.html#tools-for-picking-colors">Material design color palette from Google</a><br/>
+• <a href="https://material.io/resources/icons/">Material Icons from Google</a><br/>
+• <a href="https://fonts.google.com/">Fonts from Google (Open Sans)</a><br/>
 • <a href="https://thenounproject.com/">The Noun Project</a> for background images.<br/>
 &nbsp;&nbsp;&nbsp;Artist credits from TheNounProject:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Landan Lloyd<br/>
