@@ -126,6 +126,7 @@
         height: 250px;
         right:-100px;
         bottom: -100px;
+        border:10px solid white;
     }
     .contact-card-doodle>.two{
         width: 150px;
