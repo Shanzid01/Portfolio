@@ -3,7 +3,7 @@ import NavBar from '../components/navbar';
 import Socials from '../components/socials';
 import Button from '../components/button';
 import TextTransition, { presets } from "react-text-transition";
-import {doParallax} from '../components/common.js';
+import {doParallax, lazyLoad} from '../components/common.js';
 import '../style/helloWorld.css';
 
 export default class HelloWorld extends React.Component{
@@ -22,6 +22,7 @@ export default class HelloWorld extends React.Component{
             let newIndex=this.state.currentTitleIndex+1;
             this.setState({currentTitleIndex:newIndex%3});
         }, 2500);
+        lazyLoad();
     }
     setActive(i){
         this.setState({currentTitleIndex:i});

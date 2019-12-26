@@ -17,4 +17,13 @@ export const doParallax=(elem, factor, property="top")=>{
             document.getElementsByClassName(elem)[0].style[property]=-(window.pageYOffset*factor*1.3)+"px";
         }, 10);
     });
+};
+export const lazyLoad=()=>{
+    let images=document.getElementsByTagName("img");
+    for(let i=0; i<images.length; i++){
+        let image=images[i];
+        if(image.hasAttribute("data-src")){
+            image.src=image.getAttribute("data-src");
+        }
+    }
 }

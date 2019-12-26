@@ -9,11 +9,11 @@ export default class Testimonial extends React.Component{
     render(){return(
         <div id="Testimonial">
             <div className="doodle-testimonial">
-                <img src="./images/doodle_testimonial.svg" className="doodle-parallax-testimonial" alt="" />
+                <img data-src="./images/doodle_testimonial.svg" className="doodle-parallax-testimonial" alt="" />
                 <div className="doodle-testimonial-background" />
             </div>
             <div className="testimonial-container">
-                <img className="testimonial-person" alt="Md Azmain Amin" src="./images/azmain.jpg" />
+                <img className="testimonial-person" alt="Md Azmain Amin" src="./images/nil.svg" data-src="./images/azmain.jpg" />
                 <div className="testimonial-text-container">
                     <span className="person-name"><a href="https://www.linkedin.com/in/azmainamin/">Md Azmain Amin</a></span><div className="line-break-s" />
                     <span className="person-position">Direct supervisor at The R-Squared Project <br/>Software Engineer II at EBSCO Information Services</span><div className="line-break-s" />

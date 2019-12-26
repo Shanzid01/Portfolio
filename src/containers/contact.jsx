@@ -6,7 +6,7 @@ export default class Contact extends React.Component{
     render(){return(
         <div id="Contact">
             <div className="doodle-contact">
-                <img src="./images/doodle-contact.svg" alt="" />
+                <img data-src="./images/doodle-contact.svg" alt="" />
             </div>
             <div className="contact-card">
                 <div className="contact-card-doodle">
@@ -30,7 +30,7 @@ export default class Contact extends React.Component{
                 <div className="line-break-l" />
                 <div className="sponsor">
                     <a href="https://pay.shanzid.com">
-                        Buy me a cup of coffee ☕
+                        Buy me a cup of coffee <span aria-label="red heart" role="img">🧡</span>
                     </a>
                 </div>
             </div>

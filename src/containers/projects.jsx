@@ -21,7 +21,6 @@ export default class Projects extends React.Component{
                 "thumb":"",
                 "stacks":[""],
                 "date":"",
-                "previews":[""],
                 "live":"",
                 "github":"",
                 "android":""
@@ -45,7 +44,7 @@ export default class Projects extends React.Component{
     render(){return(
         <div className="proj-all-container">
             <div className="doodle_projects">
-                <img src="./images/doodle_projects.svg" alt="" />
+                <img data-src="./images/doodle_projects.svg" alt="" />
                 <div className="doodle_circle2" />
             </div>
             <div id="Projects">

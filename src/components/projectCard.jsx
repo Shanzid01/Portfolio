@@ -18,7 +18,7 @@ export default class ProjectCard extends React.Component{
             case 'videogame_asset': color='purple'; title='Hobby'; break;  
             default: color='grey'; title=''; break;          
         }
-        this.setState({color, title});   
+        this.setState({color, title});
     }
     render(){return(
         <div className="project-card">
@@ -27,7 +27,7 @@ export default class ProjectCard extends React.Component{
                 <span title={this.state.title} className={"proj-type "+this.state.color+'-text'}><i className="material-icons">{this.props.type}</i></span>
             </div>
             <div className="proj-img-container">
-                <img src={this.props.img} alt={this.props.name} />
+                <img data-src={this.props.img} src="./images/nil.svg" alt={this.props.name} />
             </div>
             <div className="waves-overlay waves-effect waves-light" />
         </div>
