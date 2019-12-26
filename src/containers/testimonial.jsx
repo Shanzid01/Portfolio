@@ -4,7 +4,7 @@ import '../style/testimonial.css';
 
 export default class Testimonial extends React.Component{
     componentDidMount(){
-        doParallax("doodle-parallax-testimonial", -0.02, "marginTop");
+        doParallax("doodle-parallax-testimonial", 0.05, "marginTop");
     }
     render(){return(
         <div id="Testimonial">

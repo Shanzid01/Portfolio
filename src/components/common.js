@@ -14,7 +14,7 @@ export const doParallax=(elem, factor, property="top")=>{
         if(!isElementInViewport(elem)) return;
         if(timer!==null)  clearTimeout(timer);
         timer = setTimeout(()=> {
-            document.getElementsByClassName(elem)[0].style[property]=-(window.pageYOffset*factor)+"px";
-        }, 0);
+            document.getElementsByClassName(elem)[0].style[property]=-(window.pageYOffset*factor*1.3)+"px";
+        }, 15);
     });
 }

@@ -1,4 +1,60 @@
 #Tools{
     position: relative;
-    height: 80vh;
+    min-height: 50vh;
+    padding-top: 10vh;
+    max-width: 100vw;
+}
+.doodle-tools{
+    position: absolute;
+    top:0vh;
+    left:0px;
+    width: 100%;
+    height:100%;
+    max-height: 50vh;
+    max-width: 100%;
+    z-index: 0;
+}
+.doodle-tools>img{
+    opacity: 0.6;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+.tools-container>.title-container{
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: -20px;
+}
+.tools-container>.title-container>.title-text{
+    left: 50px;
+}
+.tools-container{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.break-on-small{
+    display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+    .tools-container>.title-container{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .break-on-small{
+        display: block;
+    }
+    .doodle-tools{
+        top:10vh;
+    }
+    .doodle-tools>img{
+        height: 100%;
+        max-width: 1000vw;
+    }
+    #Tools>.container{
+        width: 100vw;
+    }
 }
