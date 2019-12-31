@@ -51,7 +51,8 @@ export default class HelloWorld extends React.Component{
                         </div>
                     </div><div className="line-break-l" />
                     <Socials /><div className="line-break-m" />
-                    <a href="mailto:hello@shanzid.com"><Button value="SEND EMAIL" color="red" icon="keyboard_arrow_right" /></a>
+                    <a href="./Shanzid_Shaiham-resume.pdf"><Button value="RESUME" color="blue" icon="" /></a>
+                    <a href="mailto:hello@shanzid.com"><Button value="EMAIL" color="red" icon="keyboard_arrow_right" /></a>
                 </div>
             </div>
             <div className="parallax-wrapper">
