@@ -28,7 +28,7 @@ export default class Projects extends React.Component{
         };
     }
     componentDidMount(){
-        doParallax("doodle_projects", -0.05);
+        doParallax("doodle_projects", -0.065);
     }
     showMoreProjects(){
         document.getElementsByClassName("show-more")[0].style.display="none";

@@ -7,7 +7,7 @@ import '../style/tools.css';
 
 export default class Tools extends React.Component{
     componentDidMount(){
-        doParallax("doodle-tools", -0.05);
+        doParallax("doodle-tools", -0.065);
     }
     render(){return(
         <div id="Tools">

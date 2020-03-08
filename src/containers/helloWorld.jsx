@@ -15,9 +15,9 @@ export default class HelloWorld extends React.Component{
         }
     }
     componentDidMount(){
-        doParallax("mesh-top", -0.2);
-        doParallax("doodle-home", -0.07);
-        doParallax("doodle2-home", -0.02);
+        doParallax("mesh-top", -0.26);
+        doParallax("doodle-home", -0.09);
+        doParallax("doodle2-home", -0.026);
         setInterval(()=>{
             let newIndex=this.state.currentTitleIndex+1;
             this.setState({currentTitleIndex:newIndex%3});

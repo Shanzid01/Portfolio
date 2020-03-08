@@ -14,7 +14,7 @@ export const doParallax=(elem, factor, property="transform")=>{
         if(!isElementInViewport(elem)) return;
         if(timer!==null)  clearTimeout(timer);
         timer = setTimeout(()=> {
-            document.getElementById(elem).style[property]=`translateY(${-1*window.pageYOffset*factor*1.3}px)`;
+            document.getElementById(elem).style[property]=`translateY(${-window.pageYOffset*factor}px)`;
         }, 10);
     });
 };
