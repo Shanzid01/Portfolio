@@ -35,7 +35,7 @@ export default class HelloWorld extends React.Component{
                     <a href="./images/me.jpeg"><img alt="Shanzid Shaiham" src="./images/me-min.png"/></a>
                 </div>
                 <div className="identity-container">
-                    <img alt="" className="mesh-top" src="/images/mesh.svg" /><div className="line-break-l" />
+                    <img alt="" className="mesh-top" id="mesh-top" src="/images/mesh.svg" /><div className="line-break-l" />
                     <div className="my-name">SHANZID SHAIHAM</div>
                     <div className="my-titles">
                         <div className="title-dots">
@@ -56,8 +56,8 @@ export default class HelloWorld extends React.Component{
                 </div>
             </div>
             <div className="parallax-wrapper">
-                <img alt="" className="doodle-home" src="./images/doodlesR_home.svg" />
-                <img alt="" className="doodle2-home" src="./images/doodlesR2_home.svg" />
+                <img alt="" className="doodle-home" id="doodle-home" src="./images/doodlesR_home.svg" />
+                <img alt="" className="doodle2-home" id="doodle2-home" src="./images/doodlesR2_home.svg" />
             </div>
         </div>
     )}

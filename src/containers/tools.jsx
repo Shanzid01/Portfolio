@@ -11,7 +11,7 @@ export default class Tools extends React.Component{
     }
     render(){return(
         <div id="Tools">
-            <div className="doodle-tools"><img data-src="./images/doodle2_tools.svg" alt="" /></div>
+            <div className="doodle-tools" id="doodle-tools"><img data-src="./images/doodle2_tools.svg" alt="" /></div>
             <div className="tools-container container">
                 <TitleCard text="Tools" img="./images/doodle_tools.svg" />
                 <div className="break-on-small" />

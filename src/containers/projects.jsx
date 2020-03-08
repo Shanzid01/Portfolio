@@ -43,7 +43,7 @@ export default class Projects extends React.Component{
     }
     render(){return(
         <div className="proj-all-container">
-            <div className="doodle_projects">
+            <div className="doodle_projects" id="doodle_projects">
                 <img data-src="./images/doodle_projects.svg" alt="" />
                 <div className="doodle_circle2" />
             </div>

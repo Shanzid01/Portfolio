@@ -8,13 +8,13 @@ export const isElementInViewport= (elem)=> {
     const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) >= 0);
     return (vertInView && horInView);
 };
-export const doParallax=(elem, factor, property="top")=>{
+export const doParallax=(elem, factor, property="transform")=>{
     let timer=null;
     window.addEventListener('scroll', ()=>{
         if(!isElementInViewport(elem)) return;
         if(timer!==null)  clearTimeout(timer);
         timer = setTimeout(()=> {
-            document.getElementsByClassName(elem)[0].style[property]=-(window.pageYOffset*factor*1.3)+"px";
+            document.getElementById(elem).style[property]=`translateY(${-1*window.pageYOffset*factor*1.3}px)`;
         }, 10);
     });
 };

@@ -51,13 +51,13 @@
     width: 18px !important;
 }
 .dot-one{
-    background-color: #FF9100;
-}
-.dot-two{
     background-color: #0091EA;
 }
+.dot-two{
+    background-color: #FF9100;
+}
 .dot-three{
-    background-color: #FFFF00;
+    background-color: #4A148C;
 }
 
 .picture-container{
