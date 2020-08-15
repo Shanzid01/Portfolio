@@ -1,143 +1,145 @@
-#HelloWorld{
-    height: 85vh;
+#HelloWorld {
+  height: 85vh;
 }
-.identity-container{
-    margin-left:10vw;
-    float: left;
-    top: 0px;
-    position: absolute;
+.body-container {
+  position: relative;
 }
-.mesh-top{
-    height: 200px;
-    width: 200px;
-    margin-bottom: -40px;
-    margin-left: -2vw;
-    position: absolute;
-    /* transition: all 0.15s ease; */
+.identity-container {
+  margin-left: 7vw;
+  float: left;
+  top: 0px;
+  position: relative;
 }
-.my-name{
-    margin-top: calc(200px - 10vh);
-    letter-spacing: 1px;
-    display: inline-block;
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+.mesh-top {
+  height: 200px;
+  width: 200px;
+  margin-bottom: -40px;
+  margin-left: -2vw;
+  position: absolute;
+  display: none;
+  /* transition: all 0.15s ease; */
 }
-.title-dots{
-    width: 85px;
+.my-name {
+  margin-top: calc(200px - 10vh);
+  letter-spacing: 1px;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
 }
-.title-dots, .title-name{
-    display: inline-block;
-    margin-right: 10px;
+.title-dots {
+  width: 85px;
 }
-.title-name{
-    font-size: 1.5em;
+.title-dots,
+.title-name {
+  display: inline-block;
+  margin-right: 10px;
 }
-.title-dots>div{
-    transition: all 0.2s ease;
-    height: 15px;
-    width: 15px;
-    margin: 0px 5px;
-    display: inline-block;
-    border-radius: 100%;
-    cursor: pointer;
+.title-name {
+  font-size: 1.5em;
 }
-.title-dots>div:hover{
-    height: 18px;
-    width: 18px;
+.title-dots > div {
+  transition: all 0.2s ease;
+  height: 15px;
+  width: 15px;
+  margin: 0px 5px;
+  display: inline-block;
+  border-radius: 100%;
+  cursor: pointer;
 }
-.dot-active{
-    height: 18px !important;
-    width: 18px !important;
+.title-dots > div:hover {
+  height: 18px;
+  width: 18px;
 }
-.dot-one{
-    background-color: #0091EA;
+.dot-active {
+  height: 18px !important;
+  width: 18px !important;
 }
-.dot-two{
-    background-color: #FF9100;
+.dot-one {
+  background-color: #0091ea;
 }
-.dot-three{
-    background-color: #4A148C;
+.dot-two {
+  background-color: #ff9100;
 }
-
-.picture-container{
-    width: 50vw;
-    text-align: center;
-    padding-top: 10vh;
-    position: absolute;
-    right: 0px;
-}
-.parallax-wrapper{
-    position: absolute;
-    top:0px;
-    left: 0px;
-    width: 100%;
-    height: 90%;
-    box-sizing: border-box;
-    z-index: -1;
-}
-.parallax-wrapper>img{
-    display: inline-block;
-    position: absolute;
-}
-.splatter-home{
-    height: 100%;
-}
-.doodle2-home, .doodle-home{
-    height: 100%;
-    float: right;
-    right: 0px;
-    top: 0px;
-    /*transition: all 0.15s ease;*/
+.dot-three {
+  background-color: #4a148c;
 }
 
+.picture-container {
+  text-align: center;
+  padding-top: 10vh;
+  position: absolute;
+  right: 7vw;
+}
+.parallax-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90%;
+  box-sizing: border-box;
+  z-index: -1;
+}
+.parallax-wrapper > img {
+  display: inline-block;
+  position: absolute;
+}
+.splatter-home {
+  height: 100%;
+}
+.doodle2-home,
+.doodle-home {
+  height: 100%;
+  float: right;
+  right: 0px;
+  top: 0px;
+  /*transition: all 0.15s ease;*/
+}
 
 @media only screen and (max-width: 600px) {
-    .body-container{
-        text-align: center;
-        margin-top: -10vh;
-    }
-    .identity-container{
-        position: relative;
-        margin:0px auto ;
-        float: none;
-        display: inline-block;
-    }
-    .picture-container{
-        float: none;
-        width: 100%;
-        padding-top: 5vh;
-        position: relative;
-    }
-    .picture-container>a>img{
-        width: 65%;
-        margin-left: 15px;
-    }
-    .mesh-top{
-        display: none;
-    }
-    .my-name{
-        font-size: 8vw;
-        margin-top: 0px;
-        letter-spacing: 0.3px;
-    }
-    .my-titles{
-        text-align: left;
-    }
-    .title-name{
-        font-size: 5.5vw;
-    }
-    
+  .body-container {
+    text-align: center;
+    margin-top: -10vh;
+  }
+  .identity-container {
+    position: relative;
+    margin: 0px auto;
+    float: none;
+    display: inline-block;
+  }
+  .picture-container {
+    float: none;
+    width: 100%;
+    padding-top: 5vh;
+    position: relative;
+  }
+  .picture-container > a > img {
+    width: 65%;
+    margin-left: 15px;
+  }
+  .mesh-top {
+    display: none;
+  }
+  .my-name {
+    font-size: 8vw;
+    margin-top: 0px;
+    letter-spacing: 0.3px;
+  }
+  .my-titles {
+    text-align: left;
+  }
+  .title-name {
+    font-size: 5.5vw;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    .my-name{
-        font-size: 2.3rem;
-    }
-    .picture-container>a>img{
-        width: 35vw;
-    }
-    #HelloWorld{
-        height: 80vh;
-    }
+  .my-name {
+    font-size: 2.3rem;
+  }
+  .picture-container > a > img {
+    width: 35vw;
+  }
+  #HelloWorld {
+    height: 80vh;
+  }
 }
-  
