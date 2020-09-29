@@ -1,5 +1,18 @@
 [
   {
+    "id": 20,
+    "name": "Ubisoft - Tools Programmer (part-time)",
+    "description": "Member of Technology Group Atlas - a team developing custom web-based mapping software for company-wide use.<br/>• Leading the front-end development of a prototype in Atlas which adds user-facing data export functionailities to core product.<br/>• Improving product by solving pain points identified by user surveys, fixing existing issues and developing new solutions.",
+    "type": "work",
+    "thumb": "./images/projects/ubisoft-partTime.png",
+    "stacks": ["VueJS", "Typescript", "Vuetify", "UI/UX", "Product Management"],
+    "date": "September 2020 - January 2021",
+    "previews": [""],
+    "live": "",
+    "github": "",
+    "android": ""
+  },
+  {
     "id": 18,
     "name": "Ubisoft - Summer 2020 internship",
     "description": "Worked at Ubisoft Montreal as a member of TG Atlas, a team responsible for building custom mapping software for company-wide use.<br/>• Designed and built the website user interface for one of the most requested features of Atlas: map export.<br/>• Increased efficiency of a proprietary feature ordering algorithm by ~30%, enhancing UI responsiveness.<br/>• Boosted code coverage by a cumulative 6.43% with Jest unit tests, building a more reliable and maintainable codebase.<br/>• Enforced guidelines for formatting/linting and fixed 700+ existing errors, producing more consistent code across entire project.<br/>• Created documentation for developers and presented code walkthrough webinars for on-boarding of new members in the team.<br/>• Hosted presentations with the team for showcasing new features and capabilities to Management.",
