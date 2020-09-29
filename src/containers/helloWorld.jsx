@@ -79,7 +79,7 @@ export default class HelloWorld extends React.Component {
             <div className="line-break-l" />
             <Socials />
             <div className="line-break-m" />
-            <a href="./Shanzid_Shaiham-resume.pdf">
+            <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-c3fbb.appspot.com/o/Shanzid_Shaiham-resume.pdf?alt=media">
               <Button value="RESUME" color="blue" icon="" />
             </a>
             <a href="mailto:hello@shanzid.com">
