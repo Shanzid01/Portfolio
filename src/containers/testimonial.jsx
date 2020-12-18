@@ -16,37 +16,33 @@ export default class Testimonial extends React.Component {
             id="doodle-parallax-testimonial"
             alt=""
           />
-          <div className="doodle-testimonial-background" />
         </div>
         <div className="testimonial-container">
-          <img
-            className="testimonial-person"
-            alt="Md Azmain Amin"
-            src="./images/nil.svg"
-            data-src="./images/azmain.jpg"
-          />
+          <a href="https://www.linkedin.com/in/silvajoaopaulod/">
+            <img
+              className="testimonial-person"
+              alt="Joao Paulo Silva"
+              src="./images/nil.svg"
+              data-src="./images/jp.jfif"
+            />
+          </a>
           <div className="testimonial-text-container">
-            <span className="person-name">
-              <a href="https://www.linkedin.com/in/azmainamin/">
-                Md Azmain Amin
-              </a>
-            </span>
-            <div className="line-break-s" />
-            <span className="person-position">
-              Project Manager - The R-Squared Project <br />
-            </span>
-            <div className="line-break-s" />
             <span className="person-testimonial">
               <i>
-                <span className="quote">" </span>
-                During our time together, it is evident that Shanzid is a bright
-                young man, whose curiosity and passion is at the forefront of
-                his work. His passion and determination are evident in his work.
-                He is always ready to take on challenging problems and tackle
-                them head on.
-                <span className="quote"> "</span>
+                <span className="quote">“ </span>
+                Technically strong, motivated, collaborative and communicative, Shanzid is one of the best interns I have ever had in my teams.
+                <span className="quote">”</span>
               </i>
             </span>
+            <span className="person-name">
+              <a href="https://www.linkedin.com/in/silvajoaopaulod/">
+              Joao Paulo Silva
+              </a>
+            </span>
+            <span className="person-position">
+              Team Lead - Ubisoft Montreal <br />
+            </span>
+            <div className="line-break-s" />
           </div>
         </div>
       </div>

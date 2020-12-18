@@ -11,7 +11,7 @@ export default class HelloWorld extends React.Component {
     super(props);
     this.state = {
       currentTitleIndex: 0,
-      titles: ["Web developer", "AI Enthusiast", "Drone Engineer"],
+      titles: ["Web developer", "Tech enthusiast", "Drone engineer"],
     };
   }
   componentDidMount() {
