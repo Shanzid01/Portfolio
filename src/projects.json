@@ -1,5 +1,18 @@
 [
   {
+    "id": 21,
+    "name": "NVIDIA - AI Infrastructure intern",
+    "description": "Full-stack software engineering intern in NVIDIA AI Infrastructure (MagLev)",
+    "type": "work",
+    "thumb": "./images/projects/nvidia.png",
+    "stacks": [],
+    "date": "May 2021 - August 2021",
+    "previews": [""],
+    "live": "",
+    "github": "",
+    "android": ""
+  },
+  {
     "id": 20,
     "name": "Ubisoft - Tools Programmer (part-time)",
     "description": "Member of Technology Group Atlas - a team developing custom web-based mapping software for company-wide use.<br/>• Leading the front-end development of a prototype in Atlas which adds user-facing data export functionailities to core product.<br/>• Improving product by solving pain points identified by user surveys, fixing existing issues and developing new solutions.",
