@@ -1,5 +1,31 @@
 [
   {
+    "id": 23,
+    "name": "Founder - niftymints.art",
+    "description": "Founded <b><a href='https://niftymints.art'>niftymints.art</a></b>, a no-code smart contract automation platform. Launched in February 2022, making Web3 more accessible for digital artists by offering an intuitive, self-serve and easy-to-use web app to bulk publish NFTs to the blockchain. The initiative started as a research project [<a href='https://www.mcgill.ca/study/2022-2023/courses/comp-400'>McGill University COMP 400</a>] investigating the different UX challenges in Web3, and then quickly transformed into its own SaaS product. <br/><br/>Statistics (as of September '22):<br/><b>8,000+</b> monthly active users, <b>5,500+</b> registered artists who published <b>350,000+</b> unique pieces of digital art to the blockchain.<br/><br/><br/>Visit <b><a href='https://twitter.com/niftymintsart'>@niftymintsart</a></b> on Twitter for the latest updates. Learn more about niftymints on YouTube <a href='https://youtu.be/gvbvlglFFxI'>here</a>.",
+    "type": "public",
+    "thumb": "./images/projects/niftymints.png",
+    "stacks": [],
+    "date": "January 2022 - Present",
+    "previews": [""],
+    "live": "https://niftymints.art",
+    "github": "https://github.com/niftymints",
+    "android": ""
+  },
+  {
+    "id": 22,
+    "name": "NVIDIA - (intern) Autonomous Vehicles",
+    "description": "Led a team of three interns while working as a full-stack software engineering intern in NVIDIA AI Infrastructure for autonomous vehicles (AV). Worked on building a web platform for visualizing time series AV data (DriveDebugger)<br/><br/>Learn more about MagLev <a href='https://blogs.nvidia.com/blog/2018/09/13/how-maglev-speeds-autonomous-vehicles-to-superhuman-levels-of-safety/'>here</a>.",
+    "type": "work",
+    "thumb": "./images/projects/nvidia-lead.jpeg",
+    "stacks": [],
+    "date": "May 2022 - August 2022",
+    "previews": [""],
+    "live": "https://developer.download.nvidia.com/video/gputechconf/gtc/2019/presentation/s9787-maglev-a-production-grade-ai-platform-running-on-gpu-enabled-kubernetes-clusters.pdf",
+    "github": "",
+    "android": ""
+  },
+  {
     "id": 21,
     "name": "NVIDIA - AI Infrastructure intern",
     "description": "Full-stack software engineering intern in NVIDIA AI Infrastructure (MagLev)",
