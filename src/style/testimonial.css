@@ -28,10 +28,11 @@
 }
 .testimonial-container img {
   border-radius: 100%;
-  height: 250px;
-  width: 250px;
+  height: 170px;
+  width: 170px;
   float: left;
-  margin-right: 20px;
+  margin-right: 60px;
+  margin-top: 50px;
 }
 .testimonial-text-container {
   padding-top: 50px;
@@ -56,6 +57,7 @@
 .person-testimonial {
   font-size: 1.7rem;
   margin-bottom: 10px;
+  font-weight: 300;
   display: block;
 }
 
@@ -66,14 +68,20 @@
   }
   .testimonial-container img {
     margin-right: 0px;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     float: none;
   }
   .testimonial-text-container {
     display: block;
     padding-top: 20px;
     text-align: center;
+  }
+  .person-testimonial {
+    font-size: 1.2rem;
+  }
+  .quote {
+    font-size: 1.5rem;
   }
   .person-position {
     font-size: 1rem;

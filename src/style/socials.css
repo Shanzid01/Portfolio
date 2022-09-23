@@ -1,38 +1,62 @@
-.social-icon{
-    height: 40px;
-    width: 40px;
-    line-height: 47px;
-    text-align: center;
-    border-radius: 100%;
-    transition: all 0.1s ease;
-    display: inline-block;
-    margin-right: 20px;
-    cursor: pointer;
+.social-icon {
+  height: 40px;
+  width: 40px;
+  line-height: 47px;
+  text-align: center;
+  border-radius: 100%;
+  transition: all 0.1s ease;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
 }
-.social-icon:hover{
-    box-shadow: 0px 0px 5px grey;
+.social-icon:hover {
+  box-shadow: 0px 0px 5px grey;
 }
-.social-icon>img{
-    height: 45%;
-    width: 45%;
+.social-icon > img {
+  height: 45%;
+  width: 45%;
 }
-.linkedIn{
-    background-color: #0e76a8;
+.linkedIn {
+  background-color: #0e76a8;
 }
-.github{
-    background-color: #263238;
+.github {
+  background-color: #263238;
 }
-.instagram{
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+.twitter {
+  background-color: #1d9bf0;
 }
-.facebook{
-    background-color: #3b5998;
+.instagram {
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.facebook {
+  background-color: #3b5998;
 }
 @media only screen and (max-width: 600px) {
-    .social-icon{
-        margin:0px 10px;
-    }
+  .social-icon {
+    margin: 0px 10px;
+  }
 }

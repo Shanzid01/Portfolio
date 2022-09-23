@@ -1,31 +1,31 @@
-.sidenav-trigger{
-    margin: 20px 0 0 20px;
-    display: block;
-    color: grey;
-    z-index: 100;
-    position: relative;
-    width: 24px;
+.sidenav-trigger {
+  margin: 20px 0 0 20px;
+  display: block;
+  color: grey;
+  z-index: 100;
+  position: relative;
+  width: 24px;
 }
-.sidenav .subheader{
-    font-size: 0.9rem;
-    font-weight:bold;
-    margin-top: 10px;
+.sidenav .subheader {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 10px;
 }
-.nav-options>li{
-    margin: 10px;
-    height: 65px;
+.nav-options > li {
+  margin: 10px;
+  height: 65px;
 }
-.nav-options>li>a{
-    color: #546E7A;
-    background-color: transparent !important;
-    font-family: Roboto;
-    font-size: 0.9rem;
-    letter-spacing: 0.05rem;
-    transition: all 0.1s ease-in;
+.nav-options > li > a {
+  color: #546e7a;
+  background-color: transparent !important;
+  font-family: "Open Sans";
+  font-size: 0.85rem;
+  letter-spacing: 0.05rem;
+  transition: all 0.1s ease-in;
 }
-.nav-options>li>a:hover{
-    border-bottom: 1px solid #1E88E5;
+.nav-options > li > a:hover {
+  border-bottom: 1px solid #1e88e5;
 }
-.drag-target{
-    width: 20px;
+.drag-target {
+  width: 20px;
 }

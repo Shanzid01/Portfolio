@@ -77,14 +77,16 @@ export default class HelloWorld extends React.Component {
               </div>
             </div>
             <div className="line-break-l" />
-            <Socials />
-            <div className="line-break-m" />
-            <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-c3fbb.appspot.com/o/Shanzid_Shaiham-resume.pdf?alt=media">
-              <Button value="RESUME" color="blue" icon="" />
-            </a>
-            <a href="mailto:hello@shanzid.com">
-              <Button value="EMAIL" color="red" icon="keyboard_arrow_right" />
-            </a>
+            <div className="contacts-container">
+              <Socials />
+              <a href="mailto:hello@shanzid.com">
+                <Button
+                  value="Email me"
+                  color="red"
+                  icon="keyboard_arrow_right"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className="parallax-wrapper">

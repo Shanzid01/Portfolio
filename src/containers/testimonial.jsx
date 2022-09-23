@@ -2,6 +2,15 @@ import React from "react";
 import { doParallax } from "../components/common.js";
 import "../style/testimonial.css";
 
+const person = {
+  url: "https://www.linkedin.com/in/kabriel",
+  name: "Kabriel Robichaux",
+  position: "Engineering manager - NVIDIA",
+  image: "./images/kabe.jpeg",
+  testimoial:
+    "Courage, perseverance, and enthusiasm are just a few of the amazing qualities that Shanzid demonstrated during his internship. He directly drove important user experience improvements and technology innovations that will be leveraged for years to come.",
+};
+
 export default class Testimonial extends React.Component {
   componentDidMount() {
     doParallax("doodle-parallax-testimonial", -0.065);
@@ -18,29 +27,27 @@ export default class Testimonial extends React.Component {
           />
         </div>
         <div className="testimonial-container">
-          <a href="https://www.linkedin.com/in/silvajoaopaulod/">
+          <a href={person.url}>
             <img
               className="testimonial-person"
-              alt="Joao Paulo Silva"
+              alt={person.name}
               src="./images/nil.svg"
-              data-src="./images/jp.jfif"
+              data-src={person.image}
             />
           </a>
           <div className="testimonial-text-container">
             <span className="person-testimonial">
               <i>
-                <span className="quote">“ </span>
-                Technically strong, motivated, collaborative and communicative, Shanzid is one of the best interns I have ever had in my teams.
+                <span className="quote">“</span>
+                {person.testimoial}
                 <span className="quote">”</span>
               </i>
             </span>
             <span className="person-name">
-              <a href="https://www.linkedin.com/in/silvajoaopaulod/">
-              Joao Paulo Silva
-              </a>
+              <a href={person.url}>{person.name}</a>
             </span>
             <span className="person-position">
-              Team Lead - Ubisoft Montreal <br />
+              {person.position} <br />
             </span>
             <div className="line-break-s" />
           </div>

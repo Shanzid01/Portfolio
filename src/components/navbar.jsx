@@ -23,7 +23,7 @@ export default class NavBar extends React.Component {
                 <a href="#HelloWorld">Hello World</a>
               </li>
               <li>
-                <a href="#Projects">Projects</a>
+                <a href="#Projects">Experience</a>
               </li>
               <li>
                 <a href="#Contact">Contact</a>
@@ -34,7 +34,7 @@ export default class NavBar extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="https://pay.shanzid.com">Donate</a>
+                <a href="https://pay.shanzid.com">Buy me a coffee</a>
               </li>
             </ul>
           </div>
@@ -53,7 +53,7 @@ export default class NavBar extends React.Component {
           </li>
           <li>
             <a className="waves-effect sidenav-close" href="#Projects">
-              <i className="material-icons">toys</i>Projects
+              <i className="material-icons">toys</i>Experience
             </a>
           </li>
           <li>
@@ -74,7 +74,7 @@ export default class NavBar extends React.Component {
               className="waves-effect sidenav-close"
               href="https://pay.shanzid.com"
             >
-              <i className="material-icons">loyalty</i>Donate
+              <i className="material-icons">loyalty</i>Buy me a coffee
             </a>
           </li>
         </ul>
