@@ -23,7 +23,7 @@ export default class Contact extends React.Component {
           <div className="contact-details">
             <div className="contact-item">
               <i className="material-icons">location_on</i>
-              <span className="contact-text">Montreal, Québec, Canada</span>
+              <span className="contact-text">Toronto, Ontario, Canada</span>
             </div>
             <div className="contact-item">
               <i className="material-icons">email</i>
