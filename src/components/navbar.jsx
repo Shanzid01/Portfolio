@@ -26,11 +26,13 @@ export default class NavBar extends React.Component {
                 <a href="#Projects">Experience</a>
               </li>
               <li>
-                <a href="#Contact">Contact</a>
-              </li>
-              <li>
                 <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-c3fbb.appspot.com/o/Shanzid_Shaiham-resume.pdf?alt=media">
                   Resume
+                </a>
+              </li>
+              <li>
+                <a href="https://ngl.link/shanzid01">
+                  Send an anonymous message
                 </a>
               </li>
               <li>
@@ -57,16 +59,20 @@ export default class NavBar extends React.Component {
             </a>
           </li>
           <li>
-            <a className="waves-effect sidenav-close" href="#Contact">
-              <i className="material-icons">alternate_email</i>Contact
-            </a>
-          </li>
-          <li>
             <a
               className="waves-effect sidenav-close"
               href="https://firebasestorage.googleapis.com/v0/b/portfolio-c3fbb.appspot.com/o/Shanzid_Shaiham-resume.pdf?alt=media"
             >
               <i className="material-icons">list_alt</i>Resume
+            </a>
+          </li>
+          <li>
+            <a
+              className="waves-effect sidenav-close"
+              href="https://ngl.link/shanzid01"
+            >
+              <i className="material-icons">hide_source</i>Send an anonymous
+              message
             </a>
           </li>
           <li>

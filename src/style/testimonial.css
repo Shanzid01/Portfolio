@@ -28,18 +28,18 @@
 }
 .testimonial-container img {
   border-radius: 100%;
-  height: 170px;
-  width: 170px;
+  height: 50px;
+  width: 50px;
   float: left;
-  margin-right: 60px;
-  margin-top: 50px;
+  margin-right: 15px;
+  margin-top: 5px;
 }
 .testimonial-text-container {
   padding-top: 50px;
   text-align: left;
 }
 .person-name {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: block;
 }
 .person-name > a {
@@ -49,16 +49,22 @@
   font-size: 1.2rem;
 }
 .quote {
-  font-size: 2rem;
+  font-size: 1.5rem;
   opacity: 0.8;
+  line-height: 30px;
   font-weight: 800;
   font-family: serif;
+  margin: 0px 5px;
 }
 .person-testimonial {
   font-size: 1.7rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 300;
   display: block;
+}
+
+.get-feedback {
+  margin-top: 15vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,25 +72,8 @@
     top: 0vh;
     width: 80%;
   }
-  .testimonial-container img {
-    margin-right: 0px;
-    width: 100px;
-    height: 100px;
-    float: none;
-  }
-  .testimonial-text-container {
-    display: block;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .person-testimonial {
-    font-size: 1.2rem;
-  }
   .quote {
     font-size: 1.5rem;
-  }
-  .person-position {
-    font-size: 1rem;
   }
   .doodle-testimonial {
     top: 0vh;

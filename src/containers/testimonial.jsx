@@ -1,14 +1,15 @@
 import React from "react";
 import { doParallax } from "../components/common.js";
 import "../style/testimonial.css";
+import Button from "../components/button";
 
 const person = {
   url: "https://www.linkedin.com/in/kabriel",
   name: "Kabriel Robichaux",
-  position: "Engineering manager - NVIDIA",
+  position: "Director of Engineering, NVIDIA",
   image: "./images/kabe.jpeg",
   testimoial:
-    "Courage, perseverance, and enthusiasm are just a few of the amazing qualities that Shanzid demonstrated during his internship. He directly drove important user experience improvements and technology innovations that will be leveraged for years to come.",
+    "He directly drove important user experience improvements and technology innovations that will be leveraged for years to come.",
 };
 
 export default class Testimonial extends React.Component {
@@ -27,14 +28,6 @@ export default class Testimonial extends React.Component {
           />
         </div>
         <div className="testimonial-container">
-          <a href={person.url}>
-            <img
-              className="testimonial-person"
-              alt={person.name}
-              src="./images/nil.svg"
-              data-src={person.image}
-            />
-          </a>
           <div className="testimonial-text-container">
             <span className="person-testimonial">
               <i>
@@ -44,6 +37,14 @@ export default class Testimonial extends React.Component {
               </i>
             </span>
             <span className="person-name">
+              <a href={person.url}>
+                <img
+                  className="testimonial-person"
+                  alt={person.name}
+                  src="./images/nil.svg"
+                  data-src={person.image}
+                />
+              </a>
               <a href={person.url}>{person.name}</a>
             </span>
             <span className="person-position">
@@ -51,6 +52,16 @@ export default class Testimonial extends React.Component {
             </span>
             <div className="line-break-s" />
           </div>
+        </div>
+        <div className="get-feedback">
+          <a
+            href="https://ngl.link/shanzid01"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Be nice"
+          >
+            <Button color="red" value="Send an anonymous message 🤫" />
+          </a>
         </div>
       </div>
     );

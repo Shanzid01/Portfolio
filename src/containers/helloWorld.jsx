@@ -11,12 +11,11 @@ export default class HelloWorld extends React.Component {
     super(props);
     this.state = {
       currentTitleIndex: 0,
-      titles: ["Web developer", "Tech enthusiast", "Drone engineer"],
+      titles: ["Software Engineer", "UI/UX Designer", "Lego builder"],
     };
   }
   componentDidMount() {
     doParallax("doodle-home", -0.09);
-    //doParallax("doodle2-home", -0.026);
     setInterval(() => {
       let newIndex = this.state.currentTitleIndex + 1;
       this.setState({ currentTitleIndex: newIndex % 3 });
