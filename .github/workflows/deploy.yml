@@ -15,8 +15,13 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: yarn build
-      - uses: w9jds/firebase-action@master
+      - name: Setup Google Cloud Credentials
+        run: echo "${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}" > ${{ github.workspace }}/firebase-key.json
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
+      - name: Deploy site
+        uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GCP_SA_KEY: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
