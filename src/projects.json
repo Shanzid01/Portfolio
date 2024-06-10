@@ -1,8 +1,8 @@
 [
   {
     "id": 24,
-    "name": "Engineer & Tech Lead, NVIDIA",
-    "description": "Building cool self-driving vehicle stuff and tech-leading a team of 3 engineers (MagLev UX SWAT).",
+    "name": "Senior Software Engineer, NVIDIA",
+    "description": "Building AI infrastructure for autonomous vehicles.",
     "type": "work",
     "thumb": "./images/projects/nvidia-full-time.png",
     "stacks": [],
