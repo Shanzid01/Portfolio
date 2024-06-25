@@ -20,9 +20,6 @@ export default class NavBar extends React.Component {
           <div className="nav-wrapper">
             <ul className="right nav-options hide-on-med-and-down">
               <li>
-                <a href="#HelloWorld">Hello World</a>
-              </li>
-              <li>
                 <a href="#Projects">Experience</a>
               </li>
               <li>
@@ -35,9 +32,6 @@ export default class NavBar extends React.Component {
                   Send an anonymous message
                 </a>
               </li>
-              <li>
-                <a href="https://pay.shanzid.com">Buy me a coffee</a>
-              </li>
             </ul>
           </div>
         </nav>
@@ -46,11 +40,6 @@ export default class NavBar extends React.Component {
           <li>
             <a className="subheader" href="#!">
               NAVIGATION
-            </a>
-          </li>
-          <li>
-            <a className="waves-effect sidenav-close" href="#HelloWorld">
-              <i className="material-icons">face</i>Hello World
             </a>
           </li>
           <li>
@@ -73,14 +62,6 @@ export default class NavBar extends React.Component {
             >
               <i className="material-icons">hide_source</i>Send an anonymous
               message
-            </a>
-          </li>
-          <li>
-            <a
-              className="waves-effect sidenav-close"
-              href="https://pay.shanzid.com"
-            >
-              <i className="material-icons">loyalty</i>Buy me a coffee
             </a>
           </li>
         </ul>
