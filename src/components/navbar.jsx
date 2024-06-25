@@ -20,17 +20,17 @@ export default class NavBar extends React.Component {
           <div className="nav-wrapper">
             <ul className="right nav-options hide-on-med-and-down">
               <li>
-                <a href="#Projects">Experience</a>
-              </li>
-              <li>
                 <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-c3fbb.appspot.com/o/Shanzid_Shaiham-resume.pdf?alt=media">
                   Resume
                 </a>
               </li>
               <li>
-                <a href="https://ngl.link/shanzid01">
-                  Send an anonymous message
+                <a href="https://shanzid01.fillout.com/nvidia-referral">
+                  Request a referral
                 </a>
+              </li>
+              <li>
+                <a href="https://buymeacoffee.com/shanzid01">Buy me a coffee</a>
               </li>
             </ul>
           </div>
@@ -40,11 +40,6 @@ export default class NavBar extends React.Component {
           <li>
             <a className="subheader" href="#!">
               NAVIGATION
-            </a>
-          </li>
-          <li>
-            <a className="waves-effect sidenav-close" href="#Projects">
-              <i className="material-icons">toys</i>Experience
             </a>
           </li>
           <li>
@@ -58,10 +53,17 @@ export default class NavBar extends React.Component {
           <li>
             <a
               className="waves-effect sidenav-close"
-              href="https://ngl.link/shanzid01"
+              href="https://shanzid01.fillout.com/nvidia-referral"
             >
-              <i className="material-icons">hide_source</i>Send an anonymous
-              message
+              <i className="material-icons">handshake</i>Request a referral
+            </a>
+          </li>
+          <li>
+            <a
+              className="waves-effect sidenav-close"
+              href="https://buymeacoffee.com/shanzid01"
+            >
+              <i className="material-icons">loyalty</i>Buy me a coffee
             </a>
           </li>
         </ul>
